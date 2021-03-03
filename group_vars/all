@@ -1,9 +1,9 @@
 # EC2 instance variable
 
 ec2:
-  region: eu-west-1
+  region: us-east-2c
   credentials: newkeys
-  image: ami-9398d3e0
+  image: ami-0f1a02d93feff123e
   sg: AllowSSH
   instance_type: t2.micro
   subnet: subnet-ed9001b5
